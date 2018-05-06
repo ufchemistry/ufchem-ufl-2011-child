@@ -1,0 +1,19 @@
+{
+  "name": "ufchem-ufl-2011",
+  "version": "1.0.0",
+  "description": "Template for department lab sites. Based on the UF 2011 Theme. Maintained by Chemistry IT Shop.",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ufchemistry/ufchem-ufl-2011.git"
+  },
+  "author": "priscillamc",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.4.1",
+    "grunt": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.1",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^2.1.0"
+  }
+}
