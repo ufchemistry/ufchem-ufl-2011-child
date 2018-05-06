@@ -1,2 +1,47 @@
 // WordPress theme meta
 @import "theme-info";
+
+#main-content {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+body.ufchem-style-1 {
+    #institutional-nav{
+        background-image: url('images/bg-chemistry-nav1.gif');
+        li#inst-home {
+            padding-left: 0;
+        }
+        li {
+            padding: 0 20px;
+        }
+    }
+    #primary-nav {
+        background-image: url('images/bg-primary-nav1.jpg');
+        
+        li {
+            background-image: url('images/bg-primary-nav-item1.jpg');
+        }
+        .children li {
+            background-image: none;
+            background-color: #293658;
+        }
+        
+        #home {
+            //background-image: url('images/bg-sprite-flat.jpg');
+        }
+        &.pri-show {
+            background-image: none;
+            
+            li {
+                background-image: none;
+                background-color: white;
+            }
+        }
+    }
+    #feature-wrap, #content-wrap, #secondary.homepage_layout_white{
+        background-image: url('images/bg-content1.jpg');
+    }
+}

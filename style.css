@@ -12,5 +12,31 @@ Tags: University of Florida
 Template: ufclas-ufl-responsive
 Build Date: 20180518
 */
+#main-content img {
+  max-width: 100%;
+  height: auto; }
+
+body.ufchem-style-1 #institutional-nav {
+  background-image: url("images/bg-chemistry-nav1.gif"); }
+  body.ufchem-style-1 #institutional-nav li#inst-home {
+    padding-left: 0; }
+  body.ufchem-style-1 #institutional-nav li {
+    padding: 0 20px; }
+
+body.ufchem-style-1 #primary-nav {
+  background-image: url("images/bg-primary-nav1.jpg"); }
+  body.ufchem-style-1 #primary-nav li {
+    background-image: url("images/bg-primary-nav-item1.jpg"); }
+  body.ufchem-style-1 #primary-nav .children li {
+    background-image: none;
+    background-color: #293658; }
+  body.ufchem-style-1 #primary-nav.pri-show {
+    background-image: none; }
+    body.ufchem-style-1 #primary-nav.pri-show li {
+      background-image: none;
+      background-color: white; }
+
+body.ufchem-style-1 #feature-wrap, body.ufchem-style-1 #content-wrap, body.ufchem-style-1 #secondary.homepage_layout_white {
+  background-image: url("images/bg-content1.jpg"); }
 
 /*# sourceMappingURL=style.css.map */
