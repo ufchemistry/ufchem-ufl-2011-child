@@ -370,6 +370,25 @@ function optionsframework_options() {
 			"id" => "opt_disable_global_elements",
 			"std" => "0",
 			"type" => "checkbox");
+    
+    // Defined Stylesheet Paths
+    // Use get_template_directory_uri if it's a parent theme
+    //	Custom Attributes
+	
+    $options[] = array( "name" => "Color Schemes",
+        "type" => "heading");
+    
+    $options[] = array(
+		'name' => "Select a Color Scheme",
+		'desc' => "Choose a color scheme from the list",
+		'id' => "opt_color_scheme",
+		'std' => 'chem0',
+		'type' => "images",
+		'options' => array(
+			'chem0' => $imagepath . 'chem0.png',
+            'chem1' => $imagepath . 'chem1.png',
+            'chem3' => $imagepath . 'chem3.png',
+	));
 
 	return $options;
 }

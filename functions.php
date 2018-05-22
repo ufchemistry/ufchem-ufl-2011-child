@@ -36,8 +36,16 @@ add_filter( 'body_class', 'ufchem_ufl_2011_body_class' );
  */
 if ( !function_exists('ufclas_responsive_top_nav') ){
     function ufclas_responsive_top_nav(){
-        include get_stylesheet_directory() . '/library/php/uf-institutional-nav.php';
+        include get_stylesheet_directory() . '/library/php/uf-chemistry-nav.php';
     }  
 }
 
-
+/**
+ * Get the keyword of the color scheme selected in Theme Options > Color Scheme
+ * 
+ * @return string
+ * @since 1.0
+ */
+function ufchem_ufl_2011_get_color_scheme() {
+	return ( of_get_option('opt_color_scheme') )? of_get_option('opt_color_scheme'):'chem3';
+}
